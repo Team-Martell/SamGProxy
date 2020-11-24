@@ -53,11 +53,11 @@ module.exports = { // what are these supposed to be?
   },
   service3: {
     api: '/products/:id/*',
-    url: 'http://localhost:7374',
+    url: 'http://13.58.184.178:5000/',
     bundle: 'bundle.js',
   },
   service4: {
-    api: ['/:prodId/images', '/products2', '/reviews', '/users'],
+    api: '/ratings/*',
     url: 'http://localhost:4000',
     bundle: 'bundle.js',
   },
